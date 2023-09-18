@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Reading2Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/baseline_close_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:text="Materi 2"
+            app:layout_constraintStart_toStartOf="@+id/ivBack"
+            app:layout_constraintTop_toBottomOf="@+id/ivBack" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="Dekstop Development"
+            app:layout_constraintBottom_toBottomOf="@+id/ivBack"
+            app:layout_constraintEnd_toStartOf="@+id/ivNext"
+            app:layout_constraintTop_toTopOf="@+id/ivBack" />
+
+        <ImageView
+            android:id="@+id/ivNext"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/baseline_east_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfprobold"
+            android:text="Website Development"
+            android:textColor="@color/primary_text"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView8"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/sfproreg"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin, elit sit amet efficitur ornare, tellus ipsum fringilla est, a aliquam leo augue nec neque. Nulla nisi ante, auctor at egestas in, vehicula eget nulla. Praesent tincidunt turpis et vestibulum tincidunt. Maecenas a accumsan ipsum. Quisque ullamcorper purus a lectus convallis sodales. Cras nibh ipsum, facilisis bibendum diam vitae, volutpat auctor lacus. Vestibulum erat dui, rutrum ac mauris sit amet, condimentum luctus augue. Cras efficitur purus metus, ut tincidunt est tincidunt sit amet. Vestibulum egestas risus at sodales vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet elit a lectus venenatis volutpat. Ut tincidunt sit amet nulla eu rhoncus. Proin congue, ex sed blandit rhoncus, nunc nibh convallis augue, eget venenatis felis eros quis purus. Nulla non magna sodales, hendrerit libero et, mollis ipsum. Pellentesque vitae tellus et arcu accumsan bibendum sed nec urna. Quisque nec arcu quis eros fringilla rhoncus.Sed commodo sapien justo, quis sollicitudin turpis suscipit sed. Suspendisse a varius tortor, vel commodo dui. Cras ullamcorper ligula eget tellus lobortis, a malesuada nunc consectetur. Etiam sem ante, vestibulum quis volutpat eget, pharetra ut odio. Phasellus vel purus quis justo feugiat auctor non id magna. Curabitur sit amet ex lorem. Cras dapibus, nunc sed faucibus iaculis, nibh ligula facilisis massa, id varius enim lacus vitae turpis. Aliquam tempus, arcu ut egestas maximus, nunc ex lobortis purus, et hendrerit sapien ipsum non dolor. Nunc pharetra maximus tortor vel vestibulum. Morbi condimentum, lacus vel tincidunt malesuada, magna elit ultricies ex, at pellentesque libero ligula quis augue. Integer ipsum enim, auctor non blandit vitae, suscipit a lacus. Suspendisse porttitor in nisl nec lacinia. Aenean leo tortor, facilisis eu ipsum eu, tempor lobortis augue. Duis condimentum dignissim ornare.
+
+Nullam vel hendrerit justo. Etiam elementum pulvinar lectus at pellentesque. Quisque ullamcorper neque mauris, ac dignissim ex facilisis sit amet. Ut et massa et tellus pulvinar lobortis. Etiam ipsum felis, vestibulum eget varius quis, auctor eu velit. Donec ac eleifend elit, ut placerat nibh. Nullam quis ultrices diam, aliquam suscipit lectus. Donec interdum sit amet dolor et pharetra. Nulla fringilla sem tortor, ultrices faucibus tellus rutrum in. Etiam sollicitudin commodo scelerisque. In hac habitasse platea dictumst. Sed sed tortor ac orci eleifend malesuada."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
